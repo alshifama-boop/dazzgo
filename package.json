@@ -1,5 +1,25 @@
 {
+  "name": "dazzgo-customer-agent",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
   "dependencies": {
-    "@emailjs/browser": "^5.0.3"
+  "next": "15.5.6",
+  "react": "19.1.1",
+  "react-dom": "19.1.1",
+  "@emailjs/browser": "^4.4.1"
+},
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "15.5.6",
+    "typescript": "^5.0.0"
   }
 }
